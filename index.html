@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Getting the Weather</title> 
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="script.js"></script>
+        
+    </head>
+    <body>
+        <main>
+            <img class="kinkaid-logo" src="https://resources.finalsite.net/images/f_auto,q_auto/v1646342137/kinkaid/ltgowcygxrp1etvccwrh/SealWHITE.png" alt="Kinkaid School Seal in White">
+            <h1>Pokémon Search App</h1>
+            <section class="container">
+              <div role="search" id="search-section">
+                <label for="search-input">Search for Pokémon Name or ID:</label>
+                <input type="text" name="pokemon" id="search-input" required="">
+                <button id="search-button">Search</button>
+              </div>
+              <div class="output">
+                <div class="top-container">
+                  <div class="name-and-id">
+                    <span id="pokemon-name">Bulbasaur</span>
+                    <span id="pokemon-id">#1</span>
+                  </div>
+                  <div class="size">
+                    <span id="weight">Weight: 69</span>
+                    <span id="height">Height: 7</span>
+                  </div>
+                  <div id="sprite-container" class="sprite-container">
+                    <img id="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                  </div>
+                  <div id="types">
+                    <span id="type1" class="type">Grass</span>
+                    <span id="type2" class="type">Poison</span>
+                  </div>
+                </div>
+                <div class="bottom-container">
+                    <div class="row">
+                        <div class="bases">Base</div>
+                        <div class="stats">Stats</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">HP</div>
+                        <div id="hp" class="stats">45</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">Attack</div>
+                        <div id="attack" class="stats">49</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">Defense</div>
+                        <div id="defense" class="stats">49</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">Sp. Attack</div>
+                        <div id="special-attack" class="stats">65</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">Sp. Defense</div>
+                        <div id="special-defense" class="stats">65</div>
+                    </div>
+                    <div class="row">
+                        <div class="bases">Speed</div>
+                        <div id="speed" class="stats">45</div>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </main>   
+    </body>
+</html>
